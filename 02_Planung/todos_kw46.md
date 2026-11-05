@@ -4,7 +4,9 @@
 
 - [ ] Projektsteckbrief (1 Seite: worum geht es)
 - [ ] One-Pager KW45 einbauen
-- [ ] Terminplan und Roadmap (Basis: [roadmap_und_meilensteine.md](roadmap_und_meilensteine.md))
+- [ ] Terminplan (gant / netzplan / Ms-Projekt?) und Roadmap (Basis: [roadmap_und_meilensteine.md](roadmap_und_meilensteine.md))
+- [ ] Risikobewertungsmatrix?
+- [ ] Fehlerkultur für den 17.12.
 - [ ] Aufgabenverteilung und Umfang der TPs (Basis: [projektstrukturplan_entwurf.md](projektstrukturplan_entwurf.md))
 - [ ] Erste Konzeptidee: Wrapper-Ansatz (Basis: [Pflichtenheft-Entwurf](../01_Projektgrundlagen/entwurf_pflichtenheft_ki_variantenmanagement.md))
 - [ ] Präsentation gemeinsam reviewen und abschicken
