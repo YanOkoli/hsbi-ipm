@@ -13,29 +13,44 @@ Für eine noch auszuwählende Produktgruppe wird ein Konzept und, sofern im Umfa
 
 ## 2. PSP-Übersicht
 
-```text
-0. KI-gestütztes Variantenmanagement
-   1. Projektkoordination und Dokumentation
-      1.1 Projektauftrag, Ziel, Umfang und offene Entscheidungen klären
-      1.2 Teamorganisation, Termine, Meetings und Statusberichte steuern
-      1.3 Risiken, Abhängigkeiten und Entscheidungen dokumentieren
-      1.4 Präsentation und Hausarbeit koordinieren
-   2. Variantenmanagement und Bewertungsmethodik
-      2.1 Fachgrundlagen und Zielkonflikt aufarbeiten
-      2.2 Bewertungsmerkmale und Kennzahlen bestimmen
-      2.3 Varianten, Gleichteile und Komplexität analysieren
-      2.4 Bewertungsmodell und Szenarienvergleich begründen
-   3. Datenmodell und KI-Wrapper
-      3.1 Produkt-, Merkmals- und Stücklistendaten strukturieren
-      3.2 Datenqualität, Regeln und Eingabeformat festlegen
-      3.3 Wrapper-Workflow für ein bestehendes KI-Modell konzipieren
-      3.4 Demonstrator bzw. Mock-up erstellen und testen
-   4. Produktfall und Wirtschaftlichkeit
-      4.1 Produktgruppe auswählen und abgrenzen
-      4.2 Kundenanforderungen, Markt und Wettbewerb untersuchen
-      4.3 Fertigungsfolgen und wirtschaftliche Kriterien bewerten
-      4.4 Beispielportfolio und alternative Varianten-Szenarien ableiten
+```mermaid
+flowchart LR
+    P["<b>0 KI-gestütztes<br/>Variantenmanagement</b>"]
+
+    P --> TP1["<b>TP 1</b><br/>Projektkoordination<br/>und Dokumentation"]
+    P --> TP2["<b>TP 2</b><br/>Variantenmanagement<br/>und Bewertungsmethodik"]
+    P --> TP3["<b>TP 3</b><br/>Datenmodell<br/>und KI-Wrapper"]
+    P --> TP4["<b>TP 4</b><br/>Produktfall und<br/>Wirtschaftlichkeit"]
+
+    TP1 --> AP11["1.1 Auftrag, Ziel, Umfang<br/>und offene Entscheidungen klären"]
+    TP1 --> AP12["1.2 Team, Termine, Meetings<br/>und Statusberichte steuern"]
+    TP1 --> AP13["1.3 Risiken, Abhängigkeiten<br/>und Entscheidungen dokumentieren"]
+    TP1 --> AP14["1.4 Präsentation und<br/>Hausarbeit koordinieren"]
+
+    TP2 --> AP21["2.1 Fachgrundlagen und<br/>Zielkonflikt aufarbeiten"]
+    TP2 --> AP22["2.2 Bewertungsmerkmale<br/>und Kennzahlen bestimmen"]
+    TP2 --> AP23["2.3 Varianten, Gleichteile<br/>und Komplexität analysieren"]
+    TP2 --> AP24["2.4 Bewertungsmodell und<br/>Szenarienvergleich begründen"]
+
+    TP3 --> AP31["3.1 Produkt-, Merkmals- und<br/>Stücklistendaten strukturieren"]
+    TP3 --> AP32["3.2 Datenqualität, Regeln<br/>und Eingabeformat festlegen"]
+    TP3 --> AP33["3.3 Wrapper-Workflow für<br/>bestehendes KI-Modell konzipieren"]
+    TP3 --> AP34["3.4 Demonstrator bzw. Mock-up<br/>erstellen und testen"]
+
+    TP4 --> AP41["4.1 Produktgruppe<br/>auswählen und abgrenzen"]
+    TP4 --> AP42["4.2 Kundenanforderungen, Markt<br/>und Wettbewerb untersuchen"]
+    TP4 --> AP43["4.3 Fertigungsfolgen und wirt-<br/>schaftliche Kriterien bewerten"]
+    TP4 --> AP44["4.4 Beispielportfolio und<br/>Varianten-Szenarien ableiten"]
+
+    classDef projekt fill:#1f4e79,color:#fff,stroke:#1f4e79
+    classDef tp fill:#9dc3e6,color:#000,stroke:#1f4e79
+    classDef ap fill:#f2f2f2,color:#000,stroke:#7f7f7f
+    class P projekt
+    class TP1,TP2,TP3,TP4 tp
+    class AP11,AP12,AP13,AP14,AP21,AP22,AP23,AP24,AP31,AP32,AP33,AP34,AP41,AP42,AP43,AP44 ap
 ```
+
+*Abbildung: Projektstrukturplan – Gesamtprojekt (Ebene 0), Teilprojekte (Ebene 1) und Arbeitspakete (Ebene 2)*
 
 ## 3. Arbeitspakete und Ergebnisse
 
